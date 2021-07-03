@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
 
       redirect_to mentors_path
     else
-      render :new, status: :bad_request
+      render :new, status: :bad_request # Maybe change this to Unauthorized instead?
     end
   end
 

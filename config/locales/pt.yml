@@ -13,7 +13,7 @@ pt:
     description:
       user:
         active: Só os membros activos são listados na plataforma. Marca-te como inactivo se não quiseres ser contactado por estudantes.
-        bio: A tua biografia. Foca-te nas decisões de carreira sobre as quais poderias ter tido questões quando eras estudante.
+        bio: 'A tua biografia. Foca-te nas decisões de carreira sobre as quais poderias ter tido questões quando eras estudante. Abaixo estão algumas indicações:'
         tags: Etiquetas que se apliquem às experiências que viveste. Selecciona todas as que são ou já foram relevantes.
         location: 'A tua localização actual, no formato "cidade, país". Exemplo: Porto, Portugal.'
         name: O teu nome preferencial.
@@ -22,6 +22,17 @@ pt:
         url_text: Endereço da tua página pessoal ou das tuas redes sociais. Um endereço por linha.
         year_in: O primeiro ano em que estiveste inscrito no curso LEIC/MIEIC.
         year_out: O último ano em que estiveste inscrito no curso LEIC/MIEIC.
+        guidelines:
+          form: Forma
+          content: Conteúdo
+          clear_sentences: Escreve frases simples e claras;
+          no_acronyms: Evita usar acrónimos;
+          be_specific: Sê específico quando partilhares informação;
+          text_length: Demasiado ou muito pouco texto é que queremos evitar, aponta para 4 ou 5 parágrafos;
+          introduce: Apresenta-te;
+          background: Resume o teu background;
+          expertise: Destaca as tuas áreas de experiência, obtidas nas tuas experiências de vida ou carreira;
+          explain: Explica o porquê de te teres juntado aos Mentorados;
       settings:
         theme: Altera o tema da página entre as opções 'light', 'dark' e 'system'
         locale: Altera a língua da página

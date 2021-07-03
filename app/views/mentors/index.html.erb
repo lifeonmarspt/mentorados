@@ -6,5 +6,5 @@
 </div>
 
 <div class="mentor-list">
-  <%= render partial: 'mentor', collection: @mentors, cached: true %>
+  <%= render partial: 'mentor', collection: @mentors, cached: true, locals: { lang: @settings.locale } %>
 </div>

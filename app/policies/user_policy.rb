@@ -12,7 +12,8 @@ UserPolicy = Struct.new(:current_user, :record) do
   def permitted_attributes_for_update
     [
       :active,
-      :bio,
+      :bio_en,
+      :bio_pt,
       :email,
       :location,
       :name,

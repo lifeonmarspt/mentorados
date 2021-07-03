@@ -13,7 +13,7 @@ en:
     description:
       user:
         active: We only list active members on the platform. Mark yourself as inactive if you don't want to be contacted by students.
-        bio: Your biography. Focus career decisions that you might have had questions about when you were a student.
+        bio: 'Your biography. Focus on career decisions that you might have had questions about when you were a student. Below are some guidelines:'
         tags: Tags that describe the experiences that you have gone through. Select all that apply or have applied in the past.
         location: 'Your current location, in "city, country" format. Example: Porto, Portugal.'
         name: Your preferred name.
@@ -22,6 +22,17 @@ en:
         url_text: Links to your personal website or social profiles. One URL per line.
         year_in: The first year you enrolled in LEIC/MIEIC.
         year_out: The last year you were enrolled in LEIC/MIEIC.
+        guidelines:
+          form: Form
+          content: Content
+          clear_sentences: Write clear simple sentences;
+          no_acronyms: Avoid using acronyms;
+          be_specific: Be specific when sharing information;
+          text_length: Too much and too little text is what we want to avoid, aim for 4 to 5 paragraphs;
+          introduce: Introduce yourself;
+          background: Summarise your background;
+          expertise: Highlight your areas of expertise acquired by your life experiences or career;
+          explain: Explain why you joined Mentorados;
       settings:
         theme: Changes the theme of the website to either the 'dark', 'light' or 'system' themes
         locale: Changes the language of the website

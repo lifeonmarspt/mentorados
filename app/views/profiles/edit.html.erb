@@ -44,7 +44,28 @@
   <div class="field">
     <div class="label"><%= f.label :bio %></div>
     <div class="description"><%= t('helpers.description.user.bio') %></div>
-    <div class="input"><%= f.text_area :bio %></div>
+    <div>
+      <p><b><%= t('helpers.description.user.guidelines.form') %></b></p>
+      <ul>
+        <li><%= t('helpers.description.user.guidelines.clear_sentences') %></li>
+        <li><%= t('helpers.description.user.guidelines.no_acronyms') %></li>
+        <li><%= t('helpers.description.user.guidelines.be_specific') %></li>
+        <li><%= t('helpers.description.user.guidelines.text_length') %></li>
+      </ul>
+      <p><b><%= t('helpers.description.user.guidelines.content') %></b></p>
+      <ul>
+        <li><%= t('helpers.description.user.guidelines.introduce') %></li>
+        <li><%= t('helpers.description.user.guidelines.background') %></li>
+        <li><%= t('helpers.description.user.guidelines.expertise') %></li>
+        <li><%= t('helpers.description.user.guidelines.explain') %></li>
+      </ul>
+    </div>
+    <div class="input"><%= f.text_area :bio_en, placeholder: 'English version (mandatory)', required: true %></div>
+  </div>
+  <%= current_user.bio_pt %>
+
+  <div class="field">
+    <div class="input"><%= f.text_area :bio_pt, placeholder: 'Versão portuguesa' %></div>
   </div>
 
   <div class="field">

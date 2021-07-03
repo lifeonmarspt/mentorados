@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_10_034046) do
+ActiveRecord::Schema.define(version: 2021_07_03_123850) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "pgcrypto"
@@ -57,7 +57,7 @@ ActiveRecord::Schema.define(version: 2020_09_10_034046) do
     t.boolean "mentor", default: false, null: false
     t.boolean "active", default: false
     t.text "name"
-    t.text "bio"
+    t.text "bio_pt"
     t.integer "year_in"
     t.integer "year_out"
     t.text "location"
@@ -69,6 +69,7 @@ ActiveRecord::Schema.define(version: 2020_09_10_034046) do
     t.uuid "invitation_id"
     t.uuid "invited_by_id"
     t.datetime "invited_at"
+    t.text "bio_en"
     t.index "lower((email)::text)", name: "index_users_on_lower_email", unique: true
     t.index ["invited_by_id"], name: "index_users_on_invited_by_id"
   end

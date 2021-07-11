@@ -40,7 +40,7 @@ from the platform.
 ## Reporting
 
 If you are subject to or witness unacceptable behavior, or have any other
-concerns, please notify us by writing to .
+concerns, please notify us by writing to [mentor@alumniei.pt](mailto:mentor@alumniei.pt).
 
 If you feel you have been unfairly accused of violating this Code of Conduct,
 you should notify with a concise description of your injury.
